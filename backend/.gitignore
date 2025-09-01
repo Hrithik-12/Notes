@@ -1,0 +1,53 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+
+# Environment variables
+*.env
+
+# macOS system files
+.DS_Store
+
+# IDE settings
+.vscode/
+.idea/
+
+# SQLite database (if you're using SQLite)
+*.db
+
+# Logs
+*.log
+
+# Uvicorn reload files
+*.pid
+
+# Pytest cache
+.pytest_cache/
+
+# Migrations (if using Alembic)
+migrations/
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyo
+*.pyd
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+
+# Build directories
+build/
+dist/
+*.egg-info/
